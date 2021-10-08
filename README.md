@@ -42,7 +42,7 @@ As an admin, I want to be able to give dog owners temporary suspensionss because
 ## Schema (Data Model)
 
 ### Dog Owners
- - extends BaseUser model (if you're extending the base user model, do that first)
+ - extends BaseUser model (if you're extending the base user model, do that first, check out some info here: [https://github.com/PdxCodeGuild/class_lemur/blob/main/4%20Django/docs/07%20User%20Management.md#extending-the-user-model](https://github.com/PdxCodeGuild/class_lemur/blob/main/4%20Django/docs/07%20User%20Management.md#extending-the-user-model))
  - Name (string)
  - Phone Number (string)
  - Address (not public, for showing how far away other owners are)
